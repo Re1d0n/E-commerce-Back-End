@@ -47,7 +47,7 @@ category_id: {
   type: DataTypes.INTEGER,
   references: {
     key: 'id',
-    model: Category,
+    model: 'category',
   }
 }
 
